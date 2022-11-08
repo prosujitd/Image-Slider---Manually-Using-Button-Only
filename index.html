@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.js" >
+    <link href="./style.css" rel="stylesheet" >
     <title>Slider of Image</title>
 </head>
 <body>
+    <div class="sliders">
+        <img src="https://picsum.photos/id/320/1200/600" class="slider">
+        <img src="https://picsum.photos/id/321/1200/600" class="slider">
+        <img src="https://picsum.photos/id/322/1200/600" class="slider">
+        <img src="https://picsum.photos/id/323/1200/600" class="slider">
+        <img src="https://picsum.photos/id/324/1200/600" class="slider">
+    </div>
+
+    <div class="nav">
+        <button onclick="previousSlide()">Previous</button>
+        <button onclick="nextSlide()">Next</button>
+    </div>
     
     <script src="./script.js"></script>
 </body>
